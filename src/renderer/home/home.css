@@ -1,0 +1,73 @@
+h3 {
+  margin: 10px 0;
+  padding: 0;
+}
+
+#main {
+  margin-bottom: 300px;
+}
+
+#menu {
+  background: #0080ff;
+  color: #fff;
+}
+
+#top {
+  margin: 10px;
+  width: 90%;
+  font-size: 1.5em;
+}
+
+#selectDirectory {
+  display: block;
+  margin: 20px 0;
+}
+
+#aboutw {
+  background: #0080ff;
+  opacity: 0.9;
+}
+
+#about {
+  min-height: 250px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  max-width: 600px;
+  color: #fff;
+  display: flex;
+}
+
+#examples {
+  display: flex;
+}
+
+.example {
+  height: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.example:hover {
+  transform: scale(1.5);
+}
+
+.example img, .example video {
+  height: 100%;
+  min-width: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  background: #fff;
+}
+
+.example label {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  color: #777;
+    padding: 10px;
+    margin: 20px 0 0;
+    text-align: center;
+}

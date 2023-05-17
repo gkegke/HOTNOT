@@ -1,0 +1,24 @@
+.imgw img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.imgw {
+  justify-content: center;
+}
+
+.vidw {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vidw video {
+  display: inline-block;
+}
+
+.svid {
+  padding: 10px 0;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}

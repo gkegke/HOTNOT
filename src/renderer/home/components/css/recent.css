@@ -1,0 +1,92 @@
+
+#recentw {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5%;
+}
+
+.recentw {
+  flex: 1 0 50%;
+}
+
+.rlink  {
+    color : #0080ff;
+    padding : 10px;
+    margin : 5px;
+    display : inline-block;
+    text-decoration : none;
+    font-size : 1.3em;
+    font-weight : 700;
+    border: 1px solid #fff;
+}
+
+.rlink:hover, .rlink:hover .recent_title {
+  background: #fff;
+  color: #0080ff;
+}
+
+.rlink:hover {
+  border: 1px solid #0080ff;
+}
+
+.recent {
+    margin-bottom: 10px;
+}
+
+.recent_title {
+    color: #0080ff;
+}
+
+.recent:hover span {
+    color: #545454;
+}
+
+img.rimg {
+    height: 150px;
+    padding: 5px;
+}
+
+.rvid {
+  padding: 5px;
+}
+
+.rvid video {
+  width: 100px;
+}
+
+.recent span {
+    color : #545454;
+    margin: 5px 0;
+    font-size: 0.7em;
+    text-decoration: italic;
+}
+
+.nof {
+    font-size: 0.7em;
+}
+
+.rimages {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* recent options */
+
+.recentOptions > .rop {
+    margin: 5px;
+    color: #545454;
+}
+
+.recentOptions .rop.disabled {
+    border: none;
+}
+
+.recentOptions .rop.disabled:hover {
+    color: #545454;
+}
+
+.rop:hover {
+    color: #0080ff;
+}
+

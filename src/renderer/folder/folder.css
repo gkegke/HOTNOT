@@ -1,0 +1,125 @@
+#folder {
+  background: #000;
+  height: auto;
+  min-height: 100vh;
+}
+
+#top {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  color : #777;
+  text-decoration : none;
+  background: #000;
+  border-bottom: 1px solid #111;
+}
+
+#home {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#menu {
+  color: #fff;
+  margin: 0;
+}
+
+#optionsToggle {
+  color: #fff;
+  background: #111;
+  border-radius: 5px 5px 0 0;
+}
+
+.show_options {
+  background: #111;
+}
+
+/* foptionsw */
+
+.foptionsw {
+    opacity: 0.9;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background: #111;
+    color: #fff;
+}
+
+.folder_button {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: italic;
+    text-align: center;
+  border: 1px solid #111;
+}
+
+.folder_button:hover {
+  border-color: #fff;
+}
+
+label {
+  display: block;
+  padding: 5px;
+}
+
+#images {
+  text-align: center;
+  margin: 10px auto 0;
+}
+
+.horizontal-images {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-images > div {
+  margin: 0;
+}
+
+.horizontal-images img {
+  height: auto;
+}
+
+.vertical-images img {
+  width: auto;
+}
+
+/* selected container */
+
+#selected-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 100;
+    font-size: 1.5em;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#selected-container:visible + * {
+  display: none;
+}
+
+.image_path {
+  color: #fff;
+}
+
+.img_options {
+  margin: 10px auto;
+}
+
+.img_options div {
+  background: none;
+}
+
+#selected-container img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0 0 100px 0;
+}
+

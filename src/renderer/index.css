@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./static/fonts/OpenSans.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: "OpenSans";
+  margin: 0;
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 7px; /* Adjust the width of the scrollbar */
+}
+
+/* Customize the track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Set the background color of the track to transparent */
+}
+
+/* Customize the handle */
+::-webkit-scrollbar-thumb {
+  background: #111; /* Set the background color of the handle to a semi-transparent gray */
+  border-radius: 6px; /* Add some round corners to the handle */
+}
+
+/* Customize the handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.8); /* Change the background color of the handle on hover to a darker semi-transparent gray */
+}
